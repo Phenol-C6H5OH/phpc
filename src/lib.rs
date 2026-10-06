@@ -24,7 +24,7 @@ pub fn elog(antecedent:&str,content:&str){
 #[cfg(test)]
 mod tests{
     #[test]
-    ///用默认信息
+    ///用默认信息输出一次成功和失败日志
     fn test_log(){
         crate::log("Testing","log message");
         crate::elog("Testing","error message");
